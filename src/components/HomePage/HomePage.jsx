@@ -202,7 +202,7 @@ const HomePage = () => {
                                 <div key={index} className="bigCard">
                                      <div className="sneakerCard">
                                     <div  className="sneakerCardHeader"><img src={iteam.url} alt="fot" /></div>
-                                    <div   className="sneakerCardBody"><p>{iteam.narxi}</p><img src={iteam.nike} alt="" /></div>
+                                    <div   className="sneakerCardBody"><p>${iteam.narxi}</p><img src={iteam.nike} alt="" /></div>
                                     <div className="sneakerCardFooter"><h6>{iteam.name}</h6></div>
                                      </div>
                                      <button onClick={()=>shoping(index)}>{iteam.button}</button>

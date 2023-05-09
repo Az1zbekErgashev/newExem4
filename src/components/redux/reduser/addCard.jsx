@@ -23,13 +23,10 @@ function addCard(state = card, action) {
         ];
         
       }
-      break;
 
-     
     default:
-       localStorage.setItem('card', JSON.stringify(state))
       return state;
-      break;
+    
   }
 }
 

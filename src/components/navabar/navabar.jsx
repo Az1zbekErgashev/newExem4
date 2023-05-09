@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './navbar.css'
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector,  } from 'react-redux';
 import axios from 'axios';
-const Navabar = () => {
+const Navabar = () => {    
     const [card1 , setCard1] = React.useState([])
     const [val, setval ] = React.useState('')
     const dispatch = useDispatch()
@@ -18,7 +18,7 @@ const Navabar = () => {
             <div className="search container d-flex">
                 <i className='bi bi-list'></i>
                 <input type="text" placeholder='Поиск' onChange={(val)=>setval(val.target.value)} />
-                <Link to='/shop'><button><i className='bi bi-cart4'></i><span><p></p></span></button></Link>
+                <Link to='/shop'><button><i className='bi bi-cart4'></i><p></p></button></Link>
             </div>
         </div>
     );

@@ -19,12 +19,17 @@
     border-radius: 10px;
     box-shadow: 0 0 10px grey;
 }
-
+.boxCardImg{
+    background-color: white;
+    width: 400px;
+    overflow: hidden;
+}
 .boxCardImg img{
     object-fit: contain;
     height: 300px;
     background: none;
     margin-left: 100px;
+    background: none;
 }
 .boxCardText{
     position: relative;
