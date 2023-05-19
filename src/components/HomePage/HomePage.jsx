@@ -23,6 +23,7 @@ import img18 from './img/row3icon5.png'
 import img19 from './img/row3icon6.png'
 import { useDispatch, useSelector } from "react-redux";
 import Searchpage from "./searchpage";
+import './HomeRes.css'
 const HomePage = () => {
   const select = useSelector(store => store)
   const dispatch = useDispatch()
@@ -199,7 +200,7 @@ const HomePage = () => {
                     {
                         (card1)? card1.map((iteam, index)=>{
                             return(
-                                <div key={index} className="bigCard">
+                                <div key={index} className="bigCard homecardres">
                                      <div className="sneakerCard">
                                     <div  className="sneakerCardHeader"><img src={iteam.url} alt="fot" /></div>
                                     <div   className="sneakerCardBody"><p>${iteam.narxi}</p><img src={iteam.nike} alt="" /></div>

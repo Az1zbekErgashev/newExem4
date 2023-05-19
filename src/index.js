@@ -13,7 +13,6 @@ import { Provider } from 'react-redux';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   
     <BrowserRouter>
     <Provider store={store}>
     <Routes>
@@ -21,10 +20,9 @@ root.render(
         <Route index path='/' element={<HomePage/>}/>
         <Route element={<ShopPage/>} path='/Shop'/>
       </Route>
-    </Routes>
+     </Routes>
       </Provider>
     </BrowserRouter>
-  
   </React.StrictMode>
 );
 

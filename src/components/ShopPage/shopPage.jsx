@@ -2,7 +2,7 @@ import React from "react";
 import "./shoppage.css";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
-
+import './shopres.css'
 const ShopPage = () => {
   const select = useSelector((store) => store.DataCard);
   let shopArr = select;

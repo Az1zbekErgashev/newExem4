@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
-    box-shadow: 0 10px 8px rgba(0, 0, 0, 0.43);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.277);
 }
 .search input{
     outline: none;
